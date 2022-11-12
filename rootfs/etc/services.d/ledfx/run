@@ -1,0 +1,9 @@
+#!/command/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: ledfx
+# Runs ledfx
+# ==============================================================================
+
+bashio::log.info "Starting ledfx..."
+
+exec ledfx --offline --config /data/ledfx
